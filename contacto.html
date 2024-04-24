@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="C:\Users\flore\OneDrive\Escritorio\CURSO-Sergio Code\Asesorías.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>StudioLomedis</title>
+        
+    <style>
+            body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: linear-gradient(to right, rgb(253, 253, 255), rgb(255, 239, 239));
+            padding: 0;
+            margin: 0;
+        }
+
+
+        header {
+            text-align: center;
+        }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffef9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+        li a:hover:not(.active) {
+            background-color: #ffffff;
+        }
+
+        .active {
+            background-color: #feffff;
+        }
+
+        h1 {
+            background-color: rgb(226, 194, 194);
+            padding: 10px;
+            margin: 0;
+            color: #e0dddd;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #fdfffd;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #fafffa;
+        }
+
+        div.contenedor-formulario {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #fffef6;
+            color: #0a0a0a;
+    
+            text-align: center;
+            height: center;
+           float: center;
+           
+            
+        }
+        .image {
+            float: center;
+            margin: 10px 10px 10px;
+            padding: 1;
+            max-width: 15%;
+            height: center;
+            width: center;
+        
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Studio LoMedis</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programas.html">Programas </a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribí aquí tu nombre" required minlength="3">
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribí aquí tu apellido" required minlength="3">
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribí aquí tu mail" required>
+            <label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="España">España</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Ecuaador">Ecuaador</option>
+            </select>
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribí aquí tu comentario"></textarea>
+
+            <label for="motivo">Motivo de contacto: </label>
+            <input type="radio" id="motivo" name="motivo"><i>Te Sigo</i>
+            <input type="radio" id="motivo" name="motivo"><i>Quiero un Programa</i>
+        </hr>
+            <footer class="footer">
+                <nav>
+                    <ul>
+                        <li>
+                           <a href="C:\Users\flore\OneDrive\Escritorio\CURSO-Sergio Code\index.html">Inicio</a>
+                             <a href="C:\Users\flore\OneDrive\Escritorio\CURSO-Sergio Code\preferencias.html">Programas</a>
+                             <a href="C:\Users\flore\OneDrive\Escritorio\CURSO-Sergio Code\audiovisuales.html">Diseño Interior</a>
+                             <a href="C:\Users\flore\OneDrive\Escritorio\CURSO-Sergio Code\audiovisuales.html">Contacto</a>
+                            </li>
+                            <img class="image" src="Asesorías-fotor-bg-remover-20231005235446.png"alt="imagen" width="150">
+        
+        
+                            <a href= "https://www.instagram.com/studio.lomedis/?hl=es-es" target="_blank" > 
+                               <img src="icons8-instagram-64.png"target="_blank"alt="imagen" width="50"> INSTAGRAM</a>
+                               <a href= "https://wa.link/2lkmtt" target="_blank" > 
+                                <img src="icons8-whatsapp-64.png" target="_blank"alt="imagen" width="50"> WHATSAAP</a>
+                             
+                        </ul>
+                    </nav>
+                        
+        
+                    <hr>
+                <p>Derechos reservados &copy; 2024</p>
+            </footer>
+
+
+            
+        </body>
+        
+        </html>
